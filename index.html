@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create a Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/typed.min.js"></script>
 </head>
 <body>
-   <h1>Priti Chaudhary</h1> 
+    <h1>Priti Chaudhary</h1> 
+    <div class="iam">I am</div>
+    <div class="text"></div>
+   
    <p>I Love to learn :)</p>
-   <img Src="./profile-pic.png" height="100px" width="100px">
+   <img Src="profile-pic.png" height="100px" width="100px">
    <h2>Education</h2>
    <ul>
     <li> <b>10th Class</b></li>
@@ -37,3 +42,12 @@
    
 </body>
 </html>
+<script>
+    var typing=new Typed(".text", 
+    {
+        String: [ "Web designer","Ferrlancer","Graphics Designer","Web Developer"],
+        typeSpeed: 100,
+        backSpeed: 40,
+        loop: true,
+    });
+</script>
